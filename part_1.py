@@ -1,3 +1,5 @@
-sample_bay = ["Basalt","Silica","Iron","Dust"]
-for sample_name in sample_bay:
-    print(f"Transmitting data for: {sample_name}")
+new_findings = []
+for _ in range(3):
+    new_rock = input("Input new rock >> ")
+    new_findings.append(new_rock)
+print(new_findings)
