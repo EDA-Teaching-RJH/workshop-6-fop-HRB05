@@ -1,5 +1,12 @@
-try:
-    x = input("Enter Motor Speed: ")
-    print(f"Speed set to {int(x)}")
-except:
-    print("Error: Corrupted Signal. Maintaining current speed.")
+
+def get_coordinate():
+    while True:
+        try:
+            x = input("What is the X coordinate: ")
+            print(f"Coordinate set to {int(x)}")
+            break
+        except:
+            print("Invalid coordinate")
+            continue
+
+get_coordinate()
