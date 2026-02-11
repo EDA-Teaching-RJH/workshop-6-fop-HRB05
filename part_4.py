@@ -9,6 +9,7 @@ while True:
         else:
             travel_log.append(x)
             print("Path Stable. Moving forward.")
+            continue
     except:
         print("Sensor Glitch")
         continue
